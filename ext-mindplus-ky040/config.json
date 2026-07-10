@@ -1,0 +1,56 @@
+{
+    "name": {
+        "zh-cn": "KY-040 旋转编码器",
+        "en": "KY-040 Rotary Encoder"
+    },
+    "description": {
+        "zh-cn": "KY-040 旋转编码器模块，支持 ArduinoC / MicroPython 上传模式读取转动与按键（簇簇 cursor）",
+        "en": "KY-040 rotary encoder for ArduinoC and MicroPython upload mode (cucu cursor)"
+    },
+    "author": "cucucursor",
+    "email": "1162279443@qq.com",
+    "license": "MIT",
+    "isBoard": false,
+    "id": "cucuky040",
+    "platform": ["win", "mac", "web"],
+    "version": "1.4.2",
+    "asset": {
+        "arduinoC": {
+            "dir": "arduinoC/",
+            "version": "1.4.2",
+            "board": [
+                "arduino",
+                "arduinonano",
+                "leonardo",
+                "mega2560",
+                "romeo",
+                "arduinounor3",
+                "vortex",
+                "maxbot",
+                "max",
+                "microbit",
+                "maqueen",
+                "calliope",
+                "esp32",
+                "firebeetleesp32",
+                "firebeetleesp32e",
+                "telloesp32",
+                "esp32s3bit",
+                "esp8266",
+                "maixduino",
+                "pico",
+                "unihiker",
+                "handbit"
+            ],
+            "main": "main.ts"
+        },
+        "micropython": {
+            "dir": "micropython/",
+            "version": "1.4.2",
+            "board": [
+                "maixduino"
+            ],
+            "main": "main.ts"
+        }
+    }
+}

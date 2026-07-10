@@ -1,0 +1,14 @@
+{
+    "cucuky040.begin|block": "init KY-040 CLK[CLK] DT[DT] SW[SW]",
+    "cucuky040.getChange|block": "encoder change",
+    "cucuky040.getCount|block": "encoder count",
+    "cucuky040.setCount|block": "set encoder count to [COUNT]",
+    "cucuky040.resetCount|block": "reset encoder count",
+    "cucuky040.getDelta|block": "steps since last read",
+    "cucuky040.hasMoved|block": "encoder moved?",
+    "cucuky040.turnedClockwise|block": "turned clockwise?",
+    "cucuky040.turnedCounterClockwise|block": "turned counter-clockwise?",
+    "cucuky040.isButtonPressed|block": "encoder button pressed?",
+    "cucuky040.wasButtonClicked|block": "encoder button clicked?",
+    "cucuky040.wasButtonReleased|block": "encoder button released?"
+}
